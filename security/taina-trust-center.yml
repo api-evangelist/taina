@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+probe: false
+url: https://www.taina.tech/our-story
+certifications:
+- ISO 27001
+program:
+  continuous_testing: true
+  external_assessors: true
+  description: >-
+    "Information security remains their top priority, demonstrated by their
+    ISO27001 certification status. They continuously test their platform to
+    ensure the highest of security standards are always adhered to, using
+    external consultants to verify its excellence."
+evidence:
+- source: https://www.taina.tech/our-story
+  keywords: [iso 27001, information security, external consultants]
+notes: >-
+  No dedicated trust.taina.tech or security.taina.tech portal was found; the
+  ISO 27001 claim is published on the corporate About/Our Story page. GDPR is
+  covered by a published Privacy & GDPR Policy.

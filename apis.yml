@@ -1,7 +1,28 @@
 aid: taina
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taina.png
 name: Taina
-description: Taina is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  TAINA Technology provides a fully automated, AI-driven regulatory tax
+  compliance platform that validates and manages IRS W-series forms, CRS
+  self-certifications, FATCA, CARF, and withholding tax documentation for
+  banks, asset managers, and other financial institutions. Its Tax Form API
+  lets institutions programmatically submit forms and supporting documents for
+  validation, receive results and status codes via real-time webhooks, and
+  retrieve preview and signed PDFs for electronic signature, deployed either
+  embedded into an existing onboarding journey or as a standalone hosted
+  portal. The platform adds OCR of scanned forms, intermediary structure
+  management, and ongoing compliance monitoring.
 url: https://raw.githubusercontent.com/api-evangelist/taina/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,64 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Tax Compliance
+- RegTech
+- FATCA
+- CRS
+- Tax Forms
+- Financial Services
+- Withholding Tax
+- Onboarding
+- API
+apis:
+- name: TAINA Tax Form API
+  description: >-
+    Gated REST API that lets financial institutions with their own KYC/onboarding
+    process programmatically submit W-series forms, CRS self-certifications, and
+    supporting documents for validation; receive validation results and codes with
+    optional real-time webhook push to downstream systems; retrieve preview PDFs
+    for electronic signature; and pull signed documents. Supports high-volume batch
+    submission. No public OpenAPI specification or developer portal is published;
+    access is provisioned to onboarded clients.
+  humanURL: https://www.taina.tech/tax-form-api
+  tags:
+  - Tax Forms
+  - Validation
+  - Webhooks
+  - Onboarding
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/taina-domain-security.yml
+- type: Website
+  url: https://www.taina.tech
+- type: Support
+  url: https://www.taina.tech/contact
+- type: Blog
+  url: https://www.taina.tech/resources-news-and-awards
+- type: TermsOfService
+  url: https://www.taina.tech/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.taina.tech/privacy-and-gdpr-policy
+- type: Compliance
+  url: conformance/taina-conformance.yml
+- type: Conformance
+  url: conformance/taina-conformance.yml
+- type: TrustCenter
+  url: security/taina-trust-center.yml
+- type: Webhooks
+  url: asyncapi/taina-tax-form-webhooks.yml
+- type: LLMsTxt
+  url: llms/taina-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

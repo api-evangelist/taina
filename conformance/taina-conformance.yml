@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.taina.tech/our-story
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: >-
+    TAINA states "Information security remains their top priority, demonstrated
+    by their ISO27001 certification status. They continuously test their platform
+    ... using external consultants to verify its excellence."
+  source: https://www.taina.tech/our-story
+- id: gdpr
+  conforms: true
+  evidence: Published Privacy & GDPR Policy governing personal-data processing.
+  source: https://www.taina.tech/privacy-and-gdpr-policy
+- id: fatca
+  conforms: true
+  evidence: >-
+    Platform validates IRS W-series forms and automates Foreign Account Tax
+    Compliance Act (FATCA) documentation and reporting.
+  source: https://www.taina.tech/fatca-crs-validation-platform
+- id: crs
+  conforms: true
+  evidence: >-
+    Platform validates OECD Common Reporting Standard (CRS) self-certifications.
+  source: https://www.taina.tech/fatca-crs-validation-platform
+- id: carf
+  conforms: true
+  evidence: >-
+    Platform supports the OECD Crypto-Asset Reporting Framework (CARF).
+  source: https://www.taina.tech/industry-crypto
+notes: >-
+  Domain/regulatory frameworks (FATCA/CRS/CARF) reflect the compliance regimes
+  the product automates, not API-protocol conformance. No public OpenAPI is
+  published, so protocol standards (OAuth2/OIDC/RFC 9457/JSON:API) could not be
+  derived from a spec.

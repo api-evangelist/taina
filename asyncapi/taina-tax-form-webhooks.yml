@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.taina.tech/tax-form-api
+spec_type: Webhooks
+summary: >-
+  The TAINA Tax Form API documents a webhook delivery mechanism: after a form is
+  submitted for validation, clients can receive validation results and status
+  codes asynchronously, "with the option to push real-time updates to downstream
+  systems via webhooks." No public AsyncAPI document or a full event-name catalog
+  is published; the webhook capability is described on the marketing/product page
+  and provisioned to onboarded API clients.
+webhooks:
+- event: validation.result
+  description: >-
+    Real-time push of a form validation outcome (results and validation codes)
+    to the client's downstream systems once processing completes.
+  delivery: HTTP POST callback
+  source: https://www.taina.tech/tax-form-api
+transport: http-callback
+notes: >-
+  Captured as a Webhooks surface, not a published AsyncAPI spec. Event names and
+  payload schemas are not public; validation.result is a descriptive label for
+  the single documented callback, not a verbatim provider event id.

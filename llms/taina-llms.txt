@@ -1,0 +1,39 @@
+# TAINA Technology
+
+> TAINA Technology provides a fully automated, AI-driven regulatory tax compliance platform that validates and manages IRS W-series forms, CRS self-certifications, FATCA, CARF, and withholding tax documentation for banks, asset managers, and other financial institutions. Its Tax Form API lets institutions programmatically submit forms for validation, receive results via real-time webhooks, and retrieve signed PDFs for electronic signature. Backed by Anthemis. ISO 27001 certified.
+
+## APIs
+
+- [TAINA Tax Form API](https://www.taina.tech/tax-form-api): Gated REST API to submit W-series forms and CRS self-certifications for validation, receive results/codes via webhooks, and retrieve preview and signed PDFs. No public OpenAPI or developer portal; access provisioned to onboarded clients.
+
+## Platform
+
+- [FATCA & CRS Validation Platform](https://www.taina.tech/fatca-crs-validation-platform): Product overview.
+- [How TAINA is Different](https://www.taina.tech/hows-taina-different): Deployment options (embedded or standalone portal), API foundations.
+- [Crypto / CARF](https://www.taina.tech/industry-crypto): Crypto-asset tax reporting and CARF support.
+- [Vendor Tax / Accounts Payable](https://www.taina.tech/industry-vendor-tax): Vendor tax form validation.
+- [Ongoing Monitoring](https://www.taina.tech/ongoing-monitoring): Continuous compliance monitoring.
+
+## Docs
+
+- [Our Story](https://www.taina.tech/our-story): Company background; ISO 27001 certification statement.
+- [Contact / Support](https://www.taina.tech/contact): Support and integration enquiries.
+- [Request a Demo](https://www.taina.tech/fatca-crs-validation-platform/request-a-demo): Product demo request.
+
+## Resources
+
+- [News & Insights](https://www.taina.tech/resources-news-and-awards): Blog, news, awards.
+- [Whitepapers & Case Studies](https://www.taina.tech/resources-whitepapers)
+- [Webcasts & Videos](https://www.taina.tech/resources-webcasts)
+
+## Repo artifacts
+
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/taina/refs/heads/main/conformance/taina-conformance.yml): ISO 27001, GDPR, FATCA, CRS, CARF.
+- [Trust Center](https://raw.githubusercontent.com/api-evangelist/taina/refs/heads/main/security/taina-trust-center.yml): ISO 27001 certification, external testing.
+- [Webhooks](https://raw.githubusercontent.com/api-evangelist/taina/refs/heads/main/asyncapi/taina-tax-form-webhooks.yml): Tax Form API validation webhook surface.
+
+## Legal
+
+- [Terms & Conditions](https://www.taina.tech/terms-and-conditions)
+- [Privacy & GDPR Policy](https://www.taina.tech/privacy-and-gdpr-policy)
+- [Cookie Notice](https://www.taina.tech/cookie-notice)
