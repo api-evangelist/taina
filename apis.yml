@@ -40,6 +40,16 @@ tags:
 - FATCA
 - CRS
 - Tax Forms
+- Financial-Services
+- Withholding Tax
+- Onboarding
+tags_raw:
+- Company
+- Tax Compliance
+- RegTech
+- FATCA
+- CRS
+- Tax Forms
 - Financial Services
 - Withholding Tax
 - Onboarding
@@ -56,6 +66,11 @@ apis:
     access is provisioned to onboarded clients.
   humanURL: https://www.taina.tech/tax-form-api
   tags:
+  - Tax Forms
+  - Validation
+  - Webhook
+  - Onboarding
+  tags_raw:
   - Tax Forms
   - Validation
   - Webhooks
