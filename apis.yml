@@ -51,7 +51,7 @@ tags:
 - FATCA
 - CRS
 - Tax Forms
-- Financial-Services
+- Financial Services
 - Withholding Tax
 - Onboarding
 tags_raw:
@@ -65,6 +65,7 @@ tags_raw:
 - Withholding Tax
 - Onboarding
 - API
+- Financial-Services
 apis:
 - name: TAINA Tax Form API
   description: >-
